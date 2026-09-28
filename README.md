@@ -1,4 +1,4 @@
-# 🚀 STM32 Tabanlı Özel Geliştirme Kartı ve Fırçalı DC Motor Sürücü
+# 🚀 Fırçalı DA Motor Sürücü
 
 Bu proje, güç elektroniği ve gömülü sistemler disiplinlerini bir araya getirerek sıfırdan tasarlanmış bir **Fırçalı DC Motor Sürücü** ve **STM32F373RCT Geliştirme Kartı** projesidir. 
 
