@@ -1,6 +1,6 @@
 # 🚀 Fırçalı DA Motor Sürücü
 
-Bu proje, güç elektroniği ve gömülü sistemler disiplinlerini bir araya getirerek sıfırdan tasarlanmış bir **Fırçalı DC Motor Sürücü** ve **STM32F373RCT Geliştirme Kartı** projesidir. 
+Bu proje, güç elektroniği ve gömülü sistemler disiplinlerini bir araya getirerek sıfırdan tasarlanmış bir **Fırçalı DC Motor Sürücü** projesidir. 
 
 Proje kapsamında, endüstriyel standartlara uygun donanım tasarımı (Altium Designer) ve alt seviye donanım kontrolünü sağlayan C tabanlı gömülü yazılım geliştirme süreçleri yürütülmüştür.Tasarlanan sürücü kartına önceden tasarladığımız stm32f3 geliştirme kartı entegre edilerek kontrol sinyali harici karttan alınmıştır.Amaç pid kontrol yapmak olmasına rağmen meydana gelen overshootları bastırmak için yeterli pid tuning zamanı bulunmamış bu sebeple sadece p kontrol yapılmıştır.
 
@@ -12,7 +12,7 @@ Proje kapsamında, endüstriyel standartlara uygun donanım tasarımı (Altium D
 ### Donanım Tasarımı (Hardware)
 * **Mikrodenetleyici:** STM32F373RCT (ARM Cortex-M4)
 * **Tasarım Aracı:** Altium Designer
-* **PCB Mimarisi:** Çok katmanlı (Multilayer) tasarım ve IPC standartlarına uygun özel kütüphane (footprint) oluşturma süreçleri.
+* **PCB Mimarisi:** 2 katmanlı tasarım ve IPC standartlarına uygun özel kütüphane (footprint) oluşturma süreçleri.
 * **Sürücü Topolojisi:** Güç elektroniği prensiplerine dayalı çift yönlü motor kontrolü sağlayan opamp kontrol devresi devresi.
 
 ### Gömülü Yazılım (Software)
